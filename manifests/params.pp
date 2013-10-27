@@ -12,6 +12,6 @@
 #
 class unarchiver::params {
 
-  $version = '3.8'
+  $version = '3.9.1'
 
 }

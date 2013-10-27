@@ -1,1 +1,1 @@
-include unarchiver
+class {'unarchiver': }
