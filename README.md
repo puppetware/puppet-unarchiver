@@ -12,7 +12,7 @@ Supported Platforms:
 Examples
 --------
 
-Install The Unarchiver:
+Install The Unarchiver 3.9.1:
 
 ```
 class {'unarchiver': }

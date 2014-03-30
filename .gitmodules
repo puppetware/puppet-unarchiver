@@ -1,3 +1,0 @@
-[submodule ".puppet/installer"]
-	path = .puppet/installer
-	url = https://github.com/skoblenick/puppet-installer

@@ -13,13 +13,8 @@
 class unarchiver::install {
   $version = $unarchiver::version
 
-  case $::kernel {
-    'Darwin': {
-       $source = "https://theunarchiver.googlecode.com/files/TheUnarchiver${version}.zip"
-    }
-    default: {
-      fail("Unsupported Kernel: ${::kernel} operatingsystem: ${::operatingsystem}")
-    }
+  $source = $::osfamily ? {
+    'Darwin' => "https://theunarchiver.googlecode.com/files/TheUnarchiver${version}.zip",
   }
 
   Exec {

@@ -1,1 +1,3 @@
-class {'unarchiver': }
+class {'unarchiver':
+  version => '3.9.1',
+}
